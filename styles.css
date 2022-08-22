@@ -1,0 +1,149 @@
+.bar:hover {
+  color: violet;
+}
+
+.btn1 {
+  background: #d90ee8;
+  background-image: -webkit-linear-gradient(top, #d90ee8, #b80ba1);
+  background-image: -moz-linear-gradient(top, #d90ee8, #b80ba1);
+  background-image: -ms-linear-gradient(top, #d90ee8, #b80ba1);
+  background-image: -o-linear-gradient(top, #d90ee8, #b80ba1);
+  background-image: linear-gradient(to bottom, #d90ee8, #b80ba1);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.btn1:hover {
+  background: #e354dc;
+  background-image: -webkit-linear-gradient(top, #e354dc, #db53db);
+  background-image: -moz-linear-gradient(top, #e354dc, #db53db);
+  background-image: -ms-linear-gradient(top, #e354dc, #db53db);
+  background-image: -o-linear-gradient(top, #e354dc, #db53db);
+  background-image: linear-gradient(to bottom, #e354dc, #db53db);
+  text-decoration: none;
+}
+
+.btn2 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Arvo);
+body {
+  background: url(https://subtlepatterns.com/patterns/broken_noise.png);
+  font-family: Arvo;
+}
+.box {
+  margin: 0px auto;
+  margin-top: 80px;
+  background: #fff9ee
+    url(https://subtlepatterns.com/patterns/lightpaperfibers.png);
+  color: #333;
+  text-transform: uppercase;
+  padding: 8px;
+  width: 300px;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px #fff;
+  font-family: "arvo";
+  font-size: 11px;
+  border-left: 1px dashed rgba(51, 51, 51, 0.5);
+  -webkit-filter: drop-shadow(0 5px 18px #000);
+}
+
+.inner {
+  border: 2px dashed rgba(51, 51, 51, 0.5);
+  min-height: 100px;
+  padding: 8px;
+}
+.inner h1 {
+  padding: 5px 0px;
+  margin: 0px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+  text-align: center;
+}
+.info {
+  width: 100%;
+  margin-top: 5px;
+}
+.info .wp {
+  float: left;
+  padding: 5px;
+  width: 83px;
+  text-align: center;
+}
+.info .wp h2 {
+  margin: 8px;
+}
+.total {
+  border-top: 1px solid rgba(51, 51, 51, 0.3);
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.total h2 {
+  padding-left: 115px;
+  margin: 10px 0px;
+  font-size: 15px;
+}
+.total p {
+  float: right;
+  margin: 0px;
+  margin-right: 15px;
+}
+
+a.buy {
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 0px auto;
+  margin-top: 50px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#Tickets {
+  margin-bottom: 100px;
+}
+
+.navigation {
+  margin-top: 30px;
+
+}
+
+
+/* #schedule {
+  background-color: #B9F9FF;
+}
+
+#statistics {
+  background-color: #B9F9FF;
+}
+
+#socials {
+  background-color: #B9F9FF;
+} */
+
+body
+{
+  background-color: #bce8ed;
+}
